@@ -15,6 +15,9 @@ public:
 	// Sets default values for this character's properties
 	ASCharacter();
 
+	class USpringArmComponent* SpringArmComp; 
+	class UCameraComponent* CameraComp;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
