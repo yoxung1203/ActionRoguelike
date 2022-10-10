@@ -15,7 +15,9 @@ public:
 	// Sets default values for this character's properties
 	ASCharacter();
 
+	UPROPERTY(EditAnywhere)
 	class USpringArmComponent* SpringArmComp; 
+	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* CameraComp;
 
 protected:
